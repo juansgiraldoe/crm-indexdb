@@ -68,8 +68,6 @@
             </tr>
           `;
           cursor.continue();
-        } else {
-          console.log('No hay mas resgistros.');
         };
       }
     };
