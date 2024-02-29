@@ -1,9 +1,9 @@
 (function () {
-  let DB;
-  const formulario = document.querySelector('#formulario');
 
   window.onload = ()=> {
-    conectarDB();
+    setTimeout(() => {
+      conectarDB();
+    }, 1000);
     formulario.addEventListener('submit', validarCliente)
   };
 
